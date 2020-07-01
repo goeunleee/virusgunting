@@ -4,19 +4,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
 <title>자가진단</title>
+=======
+<title>야관문 : 자가진단</title>
+>>>>>>> upstream/master
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
 </head>
 <body>
 	<jsp:include page="../nav.jsp" flush="true" />
-	<div class="container " align="center">
+	<div class="container mb-5 " align="center">
 		<form action="<c:url value='/test/tmT/result'/>">
-			<h1 class="font-do">탈모 자가진단</h1>
-			<table class="table">
+			<h1 class="font-nanum">탈모 자가진단</h1>
+			<table class="table mt-5">
 				<thead>
 					<tr>
 						<th scope="col">번호</th>
@@ -178,6 +181,7 @@
 			<input type="submit" class="btn btn-outline-info" value="결과보기">
 		</form>
 	</div>
+	<jsp:include page="../footer.jsp" flush="true" />
 </body>
 
 </html>
