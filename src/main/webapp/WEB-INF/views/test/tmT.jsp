@@ -4,11 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
-<title>자가진단</title>
-=======
+
 <title>야관문 : 자가진단</title>
->>>>>>> upstream/master
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 

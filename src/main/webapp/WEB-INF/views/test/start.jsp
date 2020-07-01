@@ -4,12 +4,11 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<<<<<<< HEAD
-<title>자가진단</title>
-=======
+
+
 <title>야관문 : 자가진단</title>
 <meta charset="UTF-8">
->>>>>>> upstream/master
+
 </head>
 <body>
 	<jsp:include page="../nav.jsp" flush="true" />

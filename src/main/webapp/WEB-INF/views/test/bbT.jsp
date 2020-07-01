@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
-<title>자가진단</title>
-=======
+
+
+
 <title>야관문 : 자가진단</title>
->>>>>>> upstream/master
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
