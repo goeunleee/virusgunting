@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>CoderBy</title>
+<title>오류 발생</title>
 </head>
 <body>
 <h1>에러 페이지</h1>

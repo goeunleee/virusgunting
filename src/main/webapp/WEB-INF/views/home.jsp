@@ -11,5 +11,10 @@
 		<p style="font-size: 4rem; font-family: times new roman; font-weight: 700;">minjae ear is donkey ear</p>
 		<img src="<c:url value='/images/home/donkey.gif'/>" style="max-width: 65%; height: auto;">
 	</div>
+	<div align="center" style="position=absolute">
+	대구 달서구 성서공단로 217 8F 한국 품질재단 대구경북지역본부<br>
+	217, Seongseogongdan-ro, Dalseo-gu, Daegu, Republic of Korea, 8f kfq <br>
+	   Copyright © 2020 야관문 Inc. All rights reserved.<br>
+	</div>
 </body>
 </html>

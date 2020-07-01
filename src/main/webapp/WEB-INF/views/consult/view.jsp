@@ -3,7 +3,7 @@
 
 <html>
 <head>
-<title>야관문</title>
+<title>상담하기</title>
 <script src="https://kit.fontawesome.com/5ac56ffa94.js"></script>
 <link rel="stylesheet" href="<c:url value='/css/post/view.css'/>">
 </head>

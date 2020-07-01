@@ -3,7 +3,7 @@
 <%@ page session="true" contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-<title>야관문</title>
+<title>상담하기</title>
 <script type="text/javascript" src="<c:url value='/js/post/insert.js'/>"></script>
 </head>
 <body>

@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
-<title>야관문</title>
+<title>게시글</title>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="<c:url value='/js/post/view.js'/>"></script>
 <link rel="stylesheet" href="<c:url value='/css/post/view.css'/>">

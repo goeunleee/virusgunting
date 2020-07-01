@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>야관문</title>
+<title>자가진단</title>
 </head>
 <body>
 	<jsp:include page="../nav.jsp" flush="true" />
