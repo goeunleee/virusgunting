@@ -2,12 +2,12 @@
 <%@ page session="true" contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-<title>야관문</title>
-<script type="text/javascript" src="<c:url value='/js/user/signin.js'/>"></script> 
+<title>야관문 : 로그인</title>
+<script type="text/javascript" src="<c:url value='/js/user/signin.js'/>"></script>
 </head>
 <body>
-	<jsp:include page="../nav.jsp" flush="true" />	
-	<div class="container"  >
+	<jsp:include page="../nav.jsp" flush="true" />
+	<div class="container" style="min-height: 100%;">
 		<form class="form-group font-nanum" method="post" action="<c:url value='/user/signin/'/>">
 			<div class="form-group">
 				<div class="row">
@@ -30,7 +30,7 @@
 				<c:if test="${msg=='loginfail'}">
 					<p class="font-weight-bold font-nanum" style="color: red;">로그인에 실패했습니다</p>
 				</c:if>
-				<input class="btn btn-outline-info" type="submit" value="로그인" />
+				<button class="bttn-minimal bttn-md bttn-success" type="submit">로그인</button>
 			</div>
 		</form>
 	</div>

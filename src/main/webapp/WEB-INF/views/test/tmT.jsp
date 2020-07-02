@@ -1,8 +1,6 @@
-
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="true" contentType="text/html; charset=UTF-8"%>
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 
 <title>야관문 : 자가진단</title>
@@ -10,6 +8,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+
+<link rel="shortcut icon" href="<c:url value='/images/favicon.png'/>">
+<link rel="icon" href="<<c:url value='/images/favicon.png'/>>">
 
 </head>
 <body>
@@ -176,7 +178,10 @@
 					</tr>
 				</tbody>
 			</table>
-			<input type="submit" class="btn btn-outline-info" value="결과보기">
+			<button type="submit" class="bttn-fill bttn-md bttn-success">
+				결과확인
+				<i class="fas fa-external-link-alt"></i>
+			</button>
 		</form>
 	</div>
 	<jsp:include page="../footer.jsp" flush="true" />

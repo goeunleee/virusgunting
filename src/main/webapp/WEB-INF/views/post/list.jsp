@@ -3,11 +3,16 @@
 <%@ page session="true" contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-<title>게시판</title>
+
+<link rel="shortcut icon" href="<c:url value='/images/favicon.png'/>">
+<link rel="icon" href="<<c:url value='/images/favicon.png'/>>">
+<title>야관문 : 게시판</title>
+
 </head>
 <body>
 	<jsp:include page="../nav.jsp" flush="true" />
-	<div class="container ">
+	<div class="container font-nanum" style="min-height: 100%;">
+
 		<div class="row">
 			<div class="col-7">
 				<span class="subtitle">경험과 지식을 공유하면 빨리 치유할 수 있습니다!</span>
@@ -31,7 +36,7 @@
 						<th width="10%">질병</th>
 						<th width="32%">제목</th>
 						<th width="14%">작성자</th>
-						<th width="10%">작성일</th> 
+						<th width="10%">작성일</th>
 						<th width="10%">추천수</th>
 						<th width="14%">답변상황</th>
 					</tr>
@@ -52,10 +57,10 @@
 							<td align="center">${post.postLikes-post.postDisLikes}</td>
 							<c:if test="${post.postSubject eq '질문'}">
 								<c:if test="${post.postResponded == '1'}">
-									<td>답변완료</td>
+									<td align="center">답변완료</td>
 								</c:if>
 								<c:if test="${post.postResponded == '0'}">
-									<td>답변미완료</td>
+									<td align="center">답변미완료</td>
 								</c:if>
 							</c:if>
 							<c:if test="${post.postSubject ne '질문'}">
@@ -66,9 +71,8 @@
 				</tbody>
 			</table>
 		</div>
-
-		<div class="d-flex justify-content-end">
-			<form action="<c:url value='/post/search'/>" class="mr-4">
+		<div class="d-flex ">
+			<form action="<c:url value='/post/search'/>" class="ml-auto">
 				<select name="category">
 					<option value="POST_TITLE">제목</option>
 					<option value="POST_CONTENT">내용</option>
@@ -77,11 +81,17 @@
 				<input type="text" name="text">
 				<input type="submit" value="검색">
 			</form>
-			<a href="<c:url value='/post/insert'/>">
-				<button class="btn btn-outline-info btn-sm">글쓰기</button>
+		</div>
+		<div class="d-flex ">
+			<a href="<c:url value='/post/insert'/>" class="ml-auto">
+				<button class="bttn-material-flat bttn-sm bttn-success">
+					글쓰기
+					<i class="fas fa-plus"></i>
+				</button>
+				<!-- <button class="btn btn-outline-info btn-sm">글쓰기</button> -->
 			</a>
 		</div>
 	</div>
 	<jsp:include page="../footer.jsp" flush="true" />
-</body> 
+</body>
 </html>
