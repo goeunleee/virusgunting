@@ -1,0 +1,9 @@
+diff a/src/main/java/com/coderby/myapp/consult/controller/ConsultController.java b/src/main/java/com/coderby/myapp/consult/controller/ConsultController.java	(rejected hunks)
+@@ -21,7 +21,6 @@
+ 	IConsultService consultService;
+ 
+ 	@RequestMapping(value = "/consult/list")
+-	public String getConsultList(Model model, HttpServletRequest req) {
+ 	public String getConsultList(Model model, HttpServletRequest req,RedirectAttributes rttr) {
+ 		HttpSession session = req.getSession();
+ 		UserVO login = (UserVO) session.getAttribute("member");
